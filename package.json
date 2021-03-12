@@ -1,0 +1,32 @@
+{
+  "name": "mail_sender",
+  "version": "1.0.0",
+  "description": "Mail Sending",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaydeep0621/Mail_Sender.git"
+  },
+  "author": "Jaydeep Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaydeep0621/Mail_Sender/issues"
+  },
+  "homepage": "https://github.com/jaydeep0621/Mail_Sender#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.12.0",
+    "nodemailer": "^6.5.0",
+    "nodemon": "^2.0.7"
+  }
+}
